@@ -6,12 +6,12 @@
 }
 
 .envoltura {
-  display: inline;
+  display:inline;
 }
 
-.envoltura > div {
+/* .envoltura > div {
   display: inline-block;
-}
+} */
 
 .logo {
   height: 6em;
@@ -24,6 +24,78 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+} */
+
+
+
+/* .card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.header {
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+
+.footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  top: 10px;
+ font-size: 12px;
+}
+
+
+.employeelist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  width: 250px;
+}
+
+.calculator {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 80%; 
+  margin: 20px auto; 
+}
+
+.calculator input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.calculator button {
+  margin: 15px 5px;
+  padding: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 @keyframes logo-spin {
@@ -39,12 +111,4 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
